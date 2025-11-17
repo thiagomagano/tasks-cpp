@@ -1,23 +1,6 @@
+#include "Task.h"
 #include <iostream>
 #include <string>
-
-class Task {
-private:
-  int id;
-  std::string description;
-  bool isDone;
-
-public:
-  Task(int id, std::string description) {
-    this->id = id;
-    this->description = description;
-    this->isDone = false;
-  }
-  int getId() { return this->id; }
-  std::string getDescription() { return this->description; }
-
-  bool getIsDone() { return this->isDone; }
-};
 
 int main(int argc, char *argv[]) {
   if (argc > 1) {

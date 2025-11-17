@@ -6,6 +6,18 @@ A ideia é criar uma CLI que faça um CRUD (básico) de uma lista de tarefas em 
 O programa não é principal aqui, somente treinar a sintaxe da linguagem e como escrever C++ de uma forma idiomatica.
 Por isso o programa mais simples possível (TODO HELL).
 
+## Compila e Builda
+
+Compilando:
+```console
+$ c++ main.cpp Task.cpp -o bin/task
+```
+
+Usando:
+```console
+$ ./bin/task <command> <args..>main.cpp
+```
+
 ## Organizando a bagaça
 
 - [x] Compilar a primeiro output.
