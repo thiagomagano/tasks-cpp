@@ -15,7 +15,7 @@ $ c++ main.cpp Task.cpp -o bin/task
 
 Usando:
 ```console
-$ ./bin/task <command> <args..>main.cpp
+$ ./bin/task <command> <args..>
 ```
 
 ## Organizando a bagaça

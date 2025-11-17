@@ -9,3 +9,5 @@ Task::Task(int i, std::string desc) {
 int Task::getId() { return id; }
 std::string Task::getDescription() { return description; }
 bool Task::getIsDone() { return isDone; }
+void Task::markDone() { isDone = true; }
+void Task::toggleDone() { isDone = !isDone; }

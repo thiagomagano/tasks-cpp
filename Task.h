@@ -14,6 +14,8 @@ public:
   int getId();
   std::string getDescription();
   bool getIsDone();
+  void markDone();
+  void toggleDone();
 };
 
 #endif
