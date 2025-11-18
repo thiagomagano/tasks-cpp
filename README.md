@@ -24,5 +24,8 @@ $ ./bin/task <command> <args..>
 - [x] Ler o primeiro argumento ao programa (command).
 - [x] Armazenar argumento em uma variavel e exibila na tela.
 - [x] Fazer uma condicional para a lista de argumentos passados.
-- [ ] Criar uma lista de tarefas.
-- [ ] Salvar lista em um arquivo "db".
+- [x] Criar uma lista de tarefas.
+- [x] Salvar lista em um arquivo "db".
+- [x] Importar lib pra lidar com json.
+- [x] Criar classe de Task.
+- [ ] Criar classe de Task Manager
